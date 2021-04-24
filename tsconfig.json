@@ -21,12 +21,10 @@
     "forceConsistentCasingInFileNames": true,
     "baseUrl": "./src",
     "paths": {
-      "@controllers/*": ["./controllers/*"],
       "@routes/*": ["./routes/*"],
-      "@models/*": ["./models/*"]
+      "@modules/*": ["./modules/*"],
+      "@providers/*": [".@providers/*"]
     }
   },
-  "include": [
-    "src/**/*"
-  ]
+  "include": ["src/**/*"]
 }
